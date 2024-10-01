@@ -3,7 +3,6 @@ package testing;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import static testing.TD3.*;
 
 public final class TD31Bis
 {
@@ -79,7 +78,7 @@ public final class TD31Bis
                 tab=tab+" + ";
             }
 
-            if(!(val - k < 0))
+            if(val - k >= 0)
             {
                 val = val - (1+k);
                 System.out.println(1+k);
@@ -200,8 +199,8 @@ public final class TD31Bis
         int n = sc.nextInt();
         Utils.msg("Entrez le nombre de chevaux joués : ");
         int p = sc.nextInt();
-        int x = facto(n) / facto(n-p);
-        int y = facto(n) / (facto(p)*facto(n-p));
+        int x = Utils.facto(n) / Utils.facto(n-p);
+        int y = Utils.facto(n) / (Utils.facto(p)*Utils.facto(n-p));
         Utils.msgLn("Dans l'ordre : une chance sur "+x+" de gagner");
         Utils.msgLn("Dans le désordre : une chance sur "+y+" de gagner");
     }

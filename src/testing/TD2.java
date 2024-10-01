@@ -83,17 +83,14 @@ public final class TD2 {
         System.out.print("Entrez une devise valide entre euros et sterling : ");
         String signeDevise = sc.next();
 
-        if("euros".equals(signeDevise))
-        {
-            System.out.println("La somme de " + somme + " euros en £ donne " + (somme*sterling) + " £ !");
-        }
-        else if ("sterling".equals(signeDevise))
-        {
-            System.out.println("La somme de " + somme + " £ en euros donne " + (somme*euros) + " euros !");
-        }
-        else
+        if(null == signeDevise)
         {
             System.out.println("erreur variable" + "\\u00A3" + " " + "\\u20AC");
+        }
+        else switch (signeDevise) {
+            case "euros" -> System.out.println("La somme de " + somme + " euros en £ donne " + (somme*sterling) + " £ !");
+            case "sterling" -> System.out.println("La somme de " + somme + " £ en euros donne " + (somme*euros) + " euros !");
+            default -> System.out.println("erreur variable" + "\\u00A3" + " " + "\\u20AC");
         }
     }
 }
