@@ -9,14 +9,6 @@ public final class Main
     {
         try(Scanner sc = new Scanner(System.in))
         {
-            int tab[]={1,-1,9,8,-88,-55,40,55};
-            for(int i : tab)
-            {
-                System.out.print(i+" ");
-            }
-            System.out.println();
-            System.out.println(TD4Bis.valPos(tab));
-            System.out.println(TD4Bis.valNeg(tab));
         }
     }
 }
