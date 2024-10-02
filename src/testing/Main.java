@@ -9,6 +9,7 @@ public final class Main
     {
         try(Scanner sc = new Scanner(System.in))
         {
+            TD5.noteSaisie(sc);
         }
     }
 }
