@@ -70,5 +70,14 @@ public final class TD5
     }
     * Exercice 5
     * qu'une seule boucle au lieu d'avoir k et i on n'a un simple i comme l'exercice 4
+    *
+    * Exercice 6
+    1
+    1
+    2
+    3
+    5
+    8
+    13
      */
 }
