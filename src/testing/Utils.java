@@ -22,5 +22,5 @@ public final class Utils
             nbr=nbr*i;
         }
         return nbr;
-    }
+    }    
 }
