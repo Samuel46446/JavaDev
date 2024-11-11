@@ -34,7 +34,7 @@ public final class Main
         JMenu menu = new JMenu("Choix du mod");
         resumeBut.setPreferredSize(new Dimension(200, 200));
         resumeBut.setText("Solo");
-        label.setText("un texte génial");
+        label.setText(Entities.SET_ENTITIES.get(0).getName());
         field.setPreferredSize(new Dimension(200, 200));
 
         menu.setPreferredSize(new Dimension(200, 200));
