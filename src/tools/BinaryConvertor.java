@@ -21,8 +21,8 @@ public final class BinaryConvertor
         binText.addActionListener((ActionEvent e) -> {
             int number = Integer.parseInt(binText.getText());
             String textRep = "";
-            int rep[]={0,0,0,0,0,0,0,0,0};
-            int tab[]={256, 128, 64, 32, 16, 8, 4, 2, 1 };
+            int rep[]={0,0,0,0,0,0,0,0,0,0,0,0};
+            int tab[]={2048,1024,512,256, 128, 64, 32, 16, 8, 4, 2, 1 };
             int i = 0;
             
             do {
