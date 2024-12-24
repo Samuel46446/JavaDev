@@ -16,11 +16,29 @@ public final class TetraReferences
                     {0,0,0,0},
                     {0,0,0,0}};
 
-    public static final int[][] TTetra =
-            {{0,1,0,0},
+    public static final int[][] TTetra ={
+                    {0,1,0,0},
                     {1,1,1,0},
                     {0,0,0,0},
                     {0,0,0,0}};
+
+    public static final int[][] TTetraL ={
+            {0,0,0,0},
+            {0,1,0,0},
+            {1,1,0,0},
+            {0,1,0,0}};
+
+    public static final int[][] TTetraR ={
+            {0,0,1,0},
+            {0,0,1,1},
+            {0,0,1,0},
+            {0,0,0,0}};
+
+    public static final int[][] TTetraUp ={
+            {0,0,0,0},
+            {0,0,0,0},
+            {0,1,1,1},
+            {0,0,1,0}};
 
     public static final int[][] JTetra =
             {{0,1,0,0},
