@@ -68,7 +68,7 @@ public final class TD53
         protected static int playerPosX;
         protected static int playerPosY;
         protected static int input;
-        private static char[][] grid = new char[10][10];
+        private static final char[][] grid = new char[10][10];
         
         public static void main(String[] args)
         {

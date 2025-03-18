@@ -6,9 +6,9 @@ public class Square
 {
     private int x;
     private int y;
-    private int h;
-    private int w;
-    private Color c;
+    private final int h;
+    private final int w;
+    private final Color c;
 
     public Square(int xPos, int yPos, int heigh, int with, Color color)
     {
